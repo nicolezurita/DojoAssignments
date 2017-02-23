@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en">
 <html>
 	<head>
-	<title>JavaScript Basics</title>
+		<meta charset="utf-8">
+		<title>JavaScript Basics</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
@@ -11,32 +11,39 @@
 				<h1>JavaScript Basics</h1>
 			</div>
 			<div id="sidebar">
-					<a id="bulletlinks" href="#">Home</a>
+					<a class="bulletformat" href="#">Home</a>
 						<ul>
-							<li id="bullet"><a id="bulletlinks" href="#">JavaScript Overview</a></li>
+							<li class="mainnavbullet"><a class="bulletformat" href="#">JavaScript Overview</a></li>
 							<ul>
-								<li id="bullet2"><a id="bulletlinks" href="#">Variable Declaration</a></li>
-								<li id="bullet2"><a id="bulletlinks" href="#">Variable Assignment</a></li>
-								<li id="bullet2"><a id="bulletlinks" href="#">Data Type</a></li>
-								<li id="bullet2"><a id="bulletlinks" href="#">Conditionals</a></li>
-								<li id="bullet2"><a id="bulletlinks" href="#">Loops</a></li>
-								<li id="bullet2"><a id="bulletlinks" href="#">Function</a></li>
+								<li class="secondarynavbullet"><a classs="bulletformat" href="#">Variable Declaration</a></li>
+								<li class="secondarynavbullet"><a class="bulletformat" href="#">Variable Assignment</a></li>
+								<li class="secondarynavbullet"><a class="bulletformat" href="#">Data Type</a></li>
+								<li class="secondarynavbullet"><a class="bulletformat" href="#">Conditionals</a></li>
+								<li class="secondarynavbullet"><a class="bulletformat" href="#">Loops</a></li>
+								<li class="secondarynavbullet"><a class="bulletformat" href="#">Function</a></li>
 							</ul>
-							<li id="bullet"><a id="bulletlinks" href="#">Projects</a></li>
-							<li id="bullet"><a id="bulletlinks" href="#">Assignments</a></li>
-							<li id="bullet"><a id="bulletlinks" href="#">Quiz</a></li>
+							<li class="mainnavbullet"><a class="bulletformat" href="#">Projects</a></li>
+							<li class="mainnavbullet"><a class="bulletformat" href="#">Assignments</a></li>
+							<li class="mainnavbullet"><a class="bulletformat" href="#">Quiz</a></li>
 						</ul>
 			</div>
 			<div id="maincontent">
 				<h2>JavaScript Basics</h2>
 				<p>JavaScript is a cross-platform, object-oriented scripting language. JavaScript is extremely popular for a variety of reasons. It is a small and lightweight language allowing maximum flexibility for developers to take it in a bunch of different directions. JavaScript livees inside a host of environment (a web browser or Node Server), it can be connected to the objects of these environments to provide programmatic control over them.</p>
-				<ul id="contentlinks">
-					<li id="bullet3"><a href="#">Variable Declaration</a>JavaScript variables are containers for storing data values - imagine a cup you fill with coffee, the cup holds the coffee, a variable holds a value. All JavaScript variables must be identified with unique names. These unique names are called identifiers.<span id="bluewords">var x;</span></li>
-					<li id="bullet3"><a href="#">Variable Assignment</a>Assignment operators assign values to JavaScript variables - our cup can now have coffee poured in it, giving our variable a value to hold. The = assignment operator assigns a value to a variable. <span id="bluewords">var x = 10;</span></li>
-					<li id="bullet3"><a href="#">Data Types</a>Data types are an important concept; to be able to operate on variables you need to know the data type. There are six data types that are JavaScript primitives: Boolean - <span id="bluewords">true</span> or <span id="bluewords">false</span>; null - <span id="bluewords">null</span> aka nothing; Number - <span id="bluewords">42</span> or <span id="bluewords">3.14159</span>; String - <span id="bluewords">"Coding Dojo Rocks!";</span>Array - <span id="bluewords">[1, 'Coding',2,'Dojo'];</span> and Object - <span id="bluewords">{first_name: 'Jane',last_name: 'Doe'}</span></li>
-					<li id="bullet3"><a href="#">Conditionals</a>When you write code, you want to perform different actions for different decisions - hitting different code blocks based on values or conditions that have been met. You can use conditional statements in your code to accomplish this. There are the following conditional statements: <span id="bluewords">if</span> a specified condition is true, do this code in our code block; <span id="bluewords">else if</span> to specify a new condition to test, if the first condition is false; <span id="bluewords">else</span> we execute this block of code;</li>
-					<li id="bullet3"><a href="#">Loops</a>There are many different kinds of loops in every programming language, but they all essentially do the same thing: they will repeat an action some number of times. Imagine you have to run a mile, well you run around the track four times and then you stop. Thats a loop!</li>
-					<li id="bullet3"><a href="#">Function</a>Functions are an encaspulation of a code block. When we call our function this will run that code block. Think of it as a list of instructions. As an example imagine we are putting together a desk from Ikea, we open up the instruction manual and get started, first we screw the legs to the table top; next we place the table the right way up. Done! We finished our instructions. Sadly there are a ton more tables to do so lets call our function over and over and over again.</li>
+				<ul id="contenttopmargin">
+
+					<li class="contentbullet"><a href="#">Variable Declaration</a>JavaScript variables are containers for storing data values - imagine a cup you fill with coffee, the cup holds the coffee, a variable holds a value. All JavaScript variables must be identified with unique names. These unique names are called identifiers.<span class="highlightedcontent">var x;</span></li>
+
+					<li class="contentbullet"><a href="#">Variable Assignment</a>Assignment operators assign values to JavaScript variables - our cup can now have coffee poured in it, giving our variable a value to hold. The = assignment operator assigns a value to a variable. <span class="highlightedcontent">var x = 10;</span></li>
+
+					<li class="contentbullet"><a href="#">Data Types</a>Data types are an important concept; to be able to operate on variables you need to know the data type. There are six data types that are JavaScript primitives: Boolean - <span class="highlightedcontent">true</span> or <span class="highlightedcontent">false</span>; null - <span class="highlightedcontent">null</span> aka nothing; Number - <span id="bluewords">42</span> or <span id="bluewords">3.14159</span>; String - <span class="highlightedcontent>"Coding Dojo Rocks!";</span>Array - <span class="highlightedcontent">[1, 'Coding',2,'Dojo'];</span> and Object - <span class="highlightedcontent">{first_name: 'Jane',last_name: 'Doe'}</span></li>
+
+					<li class="contentbullet"><a href="#">Conditionals</a>When you write code, you want to perform different actions for different decisions - hitting different code blocks based on values or conditions that have been met. You can use conditional statements in your code to accomplish this. There are the following conditional statements: <span class="highlightedcontent">if</span> a specified condition is true, do this code in our code block; <span class="highlightedcontent">else if</span> to specify a new condition to test, if the first condition is false; <span class="highlightedcontent">else</span> we execute this block of code;</li>
+
+					<li class="contentbullet"><a href="#">Loops</a>There are many different kinds of loops in every programming language, but they all essentially do the same thing: they will repeat an action some number of times. Imagine you have to run a mile, well you run around the track four times and then you stop. Thats a loop!</li>
+
+					<li class="contentbullet"><a href="#">Function</a>Functions are an encaspulation of a code block. When we call our function this will run that code block. Think of it as a list of instructions. As an example imagine we are putting together a desk from Ikea, we open up the instruction manual and get started, first we screw the legs to the table top; next we place the table the right way up. Done! We finished our instructions. Sadly there are a ton more tables to do so lets call our function over and over and over again.</li>
+
 				</ul>
 			</div>
 			<div id="footer">

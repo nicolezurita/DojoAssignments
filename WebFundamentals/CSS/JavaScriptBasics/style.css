@@ -25,28 +25,34 @@ p,li{
 	margin-left: 10px;
 }
 
-#bluewords{
+/*highlightedcontent refers to the few words inside of main content that are a different color*/
+span.highlightedcontent{
 	color: #495faf;
 }
 
-#contentlinks{
+/*adds a small top margin before the main content begins*/
+#contenttopmargin{
 	margin-top: 5px;
 }
 
-#bulletlinks{
+/*formats the individual bullets to a specific color and size*/
+a.bulletformat{
 	color: #62cdd8;
 	font-size: 12.5px;
 }
 
-#bullet{
+/*formats the main navigation bullets on the sidebar*/
+li.mainnavbullet{
 	margin-left: 20px;
 }
 
-#bullet2{
+/*formats the secondary navigation bullets on the sidebar*/
+li.secondarynavbullet{
 	margin-left: 40px;
 }
 
-#bullet3{
+/*formats the bullets within the main content*/
+li.contentbullet{
 	margin-left: 40px;
 	margin-bottom: 5px;
 }
