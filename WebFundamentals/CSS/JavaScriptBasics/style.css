@@ -25,6 +25,17 @@ p,li{
 	margin-left: 10px;
 }
 
+/*formats the "Home" in the sidebar*/
+#home{
+	padding: initial;
+	margin-top: 15px;
+	margin-left: 3px;
+}
+/*makes the bullet needed for the nesting of lists to be transparent*/
+li.transparentbullet{
+	color: rgba(200,54,54,0);
+}
+
 /*highlightedcontent refers to the few words inside of main content that are a different color*/
 span.highlightedcontent{
 	color: #495faf;
@@ -39,16 +50,19 @@ span.highlightedcontent{
 a.bulletformat{
 	color: #62cdd8;
 	font-size: 12.5px;
+
 }
 
 /*formats the main navigation bullets on the sidebar*/
 li.mainnavbullet{
 	margin-left: 20px;
+	margin-top: -5px;
 }
 
 /*formats the secondary navigation bullets on the sidebar*/
 li.secondarynavbullet{
 	margin-left: 40px;
+	margin-top: -5px;
 }
 
 /*formats the bullets within the main content*/
