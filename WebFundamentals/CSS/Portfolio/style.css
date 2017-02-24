@@ -1,0 +1,217 @@
+#wrapper{
+	background: radial-gradient(#6f5964, #1b0b0f);
+	width: 970px;
+	height: 1075px;
+	display: block;
+}
+
+#header{
+	background-color: #f4f4f4;
+	width: 970px;
+	height: 70px;
+	display: inline-block;
+}
+
+#footer{
+	background-color: #f4f4f4;
+	width: 970px;
+	height: 70px;
+	margin-top: 25px;
+	position: absolute;
+}
+
+#aboutme{
+	/*background-color: yellow;*/
+	width: 915px;
+	height: 300px;
+	display: block;
+	margin-left: 25px;
+	margin-top: 20px;
+
+}
+
+#aboutmesub1{
+	width: 443px;
+	height: 300px;
+	background-color: #adb6c5;
+	display: inline-block;
+	float: left;
+}
+
+#aboutmesub2{
+	width: 443px;
+	height: 300px;
+	background: linear-gradient(to right, #f7f3f7, #dacbd9);
+	display: inline-block;
+	float: right;
+
+}
+
+.longcaption{
+	width: 443px;
+	height: 42px;
+	background: radial-gradient(#888693, #B5B5B8);
+}
+
+.shortcaption{
+	width: 289px;
+	height: 42px;
+	background: radial-gradient(#888693, #B5B5B8);
+	display: inline-block;
+}
+
+#projectsandtechnologies{
+	width: 915px;
+	height: 570px;
+	display: block;
+	margin-left: 25px;
+	margin-top: 20px;
+
+}
+
+#section1{
+	width: 289px;
+	height: 570px;
+	background-color: aqua;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#section2{
+	width: 289px;
+	height: 570px;
+	background-color: red;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+#section3{
+	width: 289px;
+	height: 570px;
+	background-color: aqua;
+	display: inline-block;
+}
+
+.project{
+	width: 289px;
+	height: 300px;
+	background: linear-gradient(to right, #f7f3f7, #dacbd9);
+}
+
+.technologies{
+	width: 289px;
+	height: 228px;
+	background: linear-gradient(to right, #f7f3f7, #dacbd9);
+}
+
+h1{
+	display: inline-block;
+	margin-left: 25px;
+	font-family: "Comic Sans MS";
+}
+
+h2{
+	display: inline-block;
+	float: right;
+	margin-right: 50px;
+	font-family: "Arial", sans-serif;
+}
+
+h3{
+	color: white;
+	margin-top: 10px;
+    margin-left: 10px;
+    font-family: "Arial", sans-serif;
+
+}
+
+p{
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 12px;
+	font-family: "Arial", sans-serif;
+}
+
+span{
+	margin-left: 360px;
+	font-family: "Arial", sans-serif;
+	vertical-align: sub;
+}
+
+a{
+	color: black;
+	font-family: "Arial", sans-serif;
+}
+
+#aboutmetitle{
+	color: white;
+	margin-top: 0px;
+}
+
+#myphoto{
+	width: 425px;
+	height: 285px;
+	display: inline;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+.smallpic{
+	width: 289px;
+}
+
+.techpic{
+	width: 40px;
+	height: 40px;
+	display: inline;
+	margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+
+.button{
+	width: 75px;
+	height: 30px;
+	background-color: #407D61;
+	margin-top: 10px;
+	margin-left: 105px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px grey;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#famcontactbutton{
+	width: 110px;
+	height: 30px;
+	background-color: #407D61;
+	margin-top: 10px;
+	margin-left: 95px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px grey;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.buttonDesc{
+	color: white;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.footerpic{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.footerpicstart{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-left: 300px;
+	margin-top: inherit;
+}
