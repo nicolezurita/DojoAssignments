@@ -17,8 +17,20 @@ h2{
     color: white;
 }
 
+#topofmain{
+	width: 750px;
+	height: 65px;
+	background-color: green;
+}
+
+#symbolgradient{
+
+	color: white;
+}
+
 #learnmore{
-	padding-top: 5px;
+    padding-top: 7px;
+    font-size: small;
 }
 
 #adbutton{
@@ -30,6 +42,9 @@ h2{
     margin-left: 14px;
     color: white;
     text-align: center;
+    border-radius: 5px;
+	box-shadow: 2px 2px 2px grey;
+	background: linear-gradient(#7CD0DE, #05B6D2);
 }
 
 #ninja{
