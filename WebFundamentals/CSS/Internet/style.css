@@ -10,6 +10,79 @@
 	margin: 0;
 	}
 
+span.italics{
+	font-style: italic;
+}
+
+p.content-footer-subtitles{
+	padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: smaller;
+    padding-left: 205px;
+}
+
+#content-footer-title{
+	display: inline-block;
+	font-size: larger;
+	color: #2A699E;
+	font-weight: bold;
+	margin-left: 205px;
+	margin-top: 15px;
+
+}
+
+#html-png{
+	width: 145px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+#content-footer{
+    width: 740px;
+    height: 150px;
+    background-color: white;
+    border: 5px solid #0087DD;
+    border-bottom: none;
+    font-family: "Arial",sans-serif;
+}
+
+ol.main-content-bullets{
+	padding-left: 40px;
+	font-size: smaller;
+	padding-top: 5px;
+}
+
+#so-what-actually-happens{
+	width: 750px;
+    height: 135px;
+    background-color: white;
+    margin-top: 85px;
+    font-family: "Arial",sans-serif;
+}
+#client-server-img{
+    width: 280px;
+    margin-left: 230px;
+    margin-top: 15px;
+}
+
+span.bold{
+	font-weight: bold;
+}
+
+span.highlightedtext{
+	color: #24A4B8;
+}
+
+li.main-content-bullet-items{
+	padding-bottom: 5px;
+}
+
+ul.main-content-bullets{
+	padding-left: 40px;
+	font-size: smaller;
+}
+
 h2{
 	padding-top: 9px;
     padding-left: 20px;
@@ -17,10 +90,78 @@ h2{
     color: white;
 }
 
+p.main-content-subtitles{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: smaller;
+
+}
+
+h3.main-content-titles{
+	font-size: larger;
+	color: #2A699E;
+	font-weight: bold;
+}
+
+#client-servers{
+	margin-top: 1px;
+	width: 750px;
+    height: 170px;
+    background: linear-gradient(#F0F0F0, white);
+    font-family: "Arial",sans-serif;
+}
+
+#division{
+	width: 750px;
+    height: 1px;
+    background-color: gray;
+    display: block;
+    margin-top: 30px;
+}
+
+#contactinfo{
+	display: inline-block;
+}
+
+p.hours-international{
+	color: #A8A8A8;
+	font-size: x-small;
+}
+
+#phone{
+	color: #09C2DD;
+	font-weight: bold;
+	font-size: larger; 
+}
+
+#contact{
+	margin-left: 460px;
+    display: inline-block;
+    position: absolute;
+}
+
+#phoneimg{
+	width: 45px;
+	padding-top: 10px;
+}
+
+#DNS{
+	display: inline-block;
+	font-size: 21px;
+	color: #4178A7;
+}
+
+#homeimg{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+
 #topofmain{
 	width: 750px;
 	height: 65px;
-	background-color: green;
+	background: linear-gradient(#E3E3E3, #E9E9E9);
+	font-family: "Arial", sans-serif;
 }
 
 #symbolgradient{
@@ -146,7 +287,7 @@ h2{
 #maincontent{
     width: 750px;
     height: 500px;
-    background-color: pink;
+    background-color: white;
     display: inline-block;
     margin-left: 26px;
 }
@@ -189,6 +330,5 @@ h2{
 
 #wrapper{
 	width: 970px;
-	height: 970px;
-	background-color: blue;
+	background: linear-gradient(#E3E3E3, white);
 }
