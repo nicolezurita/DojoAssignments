@@ -1,0 +1,179 @@
+*{
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+
+h2{
+	padding-top: 9px;
+    padding-left: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+#learnmore{
+	padding-top: 5px;
+}
+
+#adbutton{
+    width: 160px;
+    height: 29px;
+    background-color: orange;
+    position: absolute;
+    margin-top: 232px;
+    margin-left: 14px;
+    color: white;
+    text-align: center;
+}
+
+#ninja{
+    width: 85px;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 103px;
+}
+
+.sidebarbutton{
+    padding-top: 9px;
+    text-align: center;
+    color: white;
+}
+
+.sidebarbuttonres{
+	width: 170px;
+    height: 35px;
+	background: linear-gradient(#E9AD5E, #EE7302);
+    display: block;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px grey;
+
+}
+
+.sidebarbuttonvid{
+	width: 170px;
+    height: 35px;
+	background: linear-gradient(#6499C1, #29689E);
+    display: block;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px grey;
+
+}
+
+#ad{
+	vertical-align: top;
+	color: white;
+	font-family: "Arial",sans-serif;
+}
+
+#adtagline{
+    position: absolute;
+    width: 175px;
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+#adbackground{
+	width: 190px;
+}
+
+#sbdivision{
+    width: 170px;
+    height: 1px;
+    background-color: gray;
+    margin-left: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sbanswer{
+	color: #5586AF;
+}
+
+#sbquestion{
+	color: red;
+}
+
+#sidebaranswer{
+	padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+#sidebarquestion{
+	padding-top: 25px;
+	padding-left: 5px;
+	font-weight: bold;
+
+}
+
+#sidebar{
+    width: 190px;
+    height: 500px;
+	background: linear-gradient(#E3E3E3, white);
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Arial",sans-serif;
+}
+
+#maincontent{
+    width: 750px;
+    height: 500px;
+    background-color: pink;
+    display: inline-block;
+    margin-left: 26px;
+}
+
+#captionarea{
+	background: radial-gradient(#5182AA, #29689D);
+	height: 45px;
+}
+
+#titlespan{
+	color: #2E6C9F;
+}
+
+#title{
+	display: inline-block;
+    color: #8A8A8A;
+    vertical-align: top;
+    padding-top: 20px;
+
+}
+
+#globe{
+	width: 90px;
+	display: inline-block;
+}
+
+#titlearea{
+	width: 970px;
+	height: 70px;
+	background-color: white;
+	font-size: 44px;
+}
+
+#top{
+	width: 970px;
+	height: 115px;
+	display: inline-block;
+	font-family: "Arial",sans-serif;
+}
+
+#wrapper{
+	width: 970px;
+	height: 970px;
+	background-color: blue;
+}
