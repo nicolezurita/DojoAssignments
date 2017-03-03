@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact Card</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+	<script type="text/javascript">
+
+		// function clickCard(){
+		// 	$('#test').on('click', function(){
+		// 		alert("hi");
+		// 	})
+		// }
+
+		$(document).ready(function(){
+			$('form').submit(function(){
+				// alert("hi");
+				//$("table").append("<tbody><tr>");
+				$("body").append("<div id='output'><p>"+$('#first_name').val()+" "+$('#last_name').val()+"</p><p id='flip'>"+$('#description').val()+"</p></div>");
+				// $("tbody").append("<td>"+$("#first_name").val()+" "+$("#last_name").val()+"</td>");
+				//$("table").append("<td>"+$("#last_name").val()+"</td>");
+				// $("table").append("<button>About</button>");
+				//$("table").append("</tr></tbody>");
+				return false
+				// 	// $('.entry').html('<td>'+$('#description').val()+'</td>');
+				// 	$('.entry').hide();
+				})
+			$(document).on('click','#output',function(){
+				// alert("hi");
+				$(this).children().toggle();
+				return false
+
+			})
+			// $(document).on('click', function(){
+			// 	alert("IGOTHHISHFKDJFAL");
+			// 	//$('#test').hide();
+			// 	$("#test").html("<td>"+$("#description").val()+"</td>");
+			// 	return false
+			// })
+		})
+	</script>
+</head>
+<body>
+	<h1>Contact Card</h1>
+	<h4>Please enter your information below to be added as a contact. <p>Once contact is entered, click on their "card" for more information.</p></h4>
+	<div id="wrapper">
+
+	<!-- Form where inputs are coming from -->
+		<form>
+			<p><label for="first_name">First Name:</label>
+			<input id="first_name" type="text" name="first_name"></p>
+
+			<p><label for="last_name">Last Name:</label>
+			<input id="last_name" type="text" name="last_name"></p>
+
+			<p class="describe">Description:</p>
+			<p class="describe"><textarea id="description" name="description"></textarea></p>
+
+			<input type="submit" value="Add User">
+		</form>
+	</div>
+
+<!-- 	<table>
+		<tbody></tbody>
+	</table> -->
+
+</body>
+
+
+</html>

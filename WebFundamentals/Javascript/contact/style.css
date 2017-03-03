@@ -1,0 +1,52 @@
+h2{
+	margin-left: 750px;
+}
+
+#flip{
+	display: none;
+}
+
+form{
+	margin-top: 135px;
+}
+
+#output{
+	/*display: inline-block;*/
+	margin-left: 800px;
+	font-family: "Arial",sans-serif;
+	font-size: 30px;
+	background-color: pink;
+	width: 500px;
+    height: 100%;
+    text-align: center;
+}
+
+.describe{
+	padding-bottom: 0px;
+}
+
+p{
+	padding-bottom: 12px;
+}
+
+h1{
+	font-family: "Arial",sans-serif;
+    padding-left: 20px;
+    position: absolute;
+}
+
+h4{
+	font-family: "Arial",sans-serif;
+    position: absolute;
+    margin-top: 64px;
+    margin-left: 20px;
+}
+
+#wrapper{
+	width: 500px;
+	height: 500px;
+	/*background-color: pink;*/
+	font-family: "Arial", sans-serif;
+	margin-left: 20px;
+	position: absolute;
+}
