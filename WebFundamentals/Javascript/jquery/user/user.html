@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<title>Users</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("form").submit(function(){
+				//return false<td>"+$("#first_name").val()+"</td>
+				// alert("got here");
+				$("table").append("<tbody><tr>");
+				$("table").append("<td>"+$("#first_name").val()+"</td>");
+				$("table").append("<td>"+$("#last_name").val()+"</td>");
+				$("table").append("<td>"+$("#email").val()+"</td>");
+				$("table").append("<td>"+$("#contact_num").val()+"</td>");
+				$("table").append("</tr></tbody>");
+				//$("form").reset();
+				//console.log($(this).serialize());
+				// console.log($("#first_name").val());
+				// console.log($("#last_name").val());
+				// console.log($("#email").val());
+				// console.log($("#contact_num").val());
+				//console.log($(this).children("test").value());
+				return false
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email Address</th>
+				<th>Contact #</th>
+			</tr>
+		</thead>
+	</table>
+
+	<h1>Add User</h1>
+	<form action="process.php" method="post">
+		<p>
+		<label for="first_name">First Name:</label>
+		<input id="first_name" type="text" name="first_name">
+		</p>
+
+		<p>
+		<label for="last_name">Last Name:</label>
+		<input id="last_name" type="text" name="last_name">
+		</p>
+
+		<p>
+		<label for="email">Email:</label>
+		<input id="email" type="text" name="email">
+		</p>
+			
+		<p>
+		<label for="contact_num">Contact No.:</label>
+		<input id="contact_num" type="text" name="contact_num">
+		</p>
+
+		 <input type="submit" value="Add User">
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Choice</title>
+	<script type="text/javascript">
+		function slots(quarters)
+		{
+			while(quarters > 0)
+			{
+				var num = 1;
+				var total = Math.trunc(Math.random() * 101) + 1;  //1 - 100
+				var reward = Math.trunc(Math.random() * 51) + 50; // 50 - 100
+
+				if(quarters > 0)
+				{
+					quarters--;
+					if(num === total)
+					{
+						console.log("Your reward: ", reward);
+						quarters = quarters + reward;
+						console.log("Total quarters: ", quarters);
+					}
+				}
+			}
+
+			console.log("Remaining quarters: ", quarters);
+		}
+
+		slots(4);	
+	</script>
+</head>
+
+<body>
+</body>
+</html>

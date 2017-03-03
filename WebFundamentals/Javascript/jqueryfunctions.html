@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning JQuery Functionsd</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" >
+		$(document).ready(function(){
+			$("#click").click(function(){
+				alert("You Clicked Me!");
+			});
+
+			$("#hide").click(function(){
+				$("p").hide();
+				$(".slide").hide();
+				$(".fade-text").hide();
+			});
+
+			$("#show").click(function(){
+				$("p").show();
+			});
+
+			$("#toggle").click(function(){
+				$(".toggled").toggle();
+			});
+
+			
+			$("#slideDown").click(function(){
+				$(".slide").slideDown("fast");
+			});
+
+			$("#slideUp").click(function(){
+				$(".slideup").slideUp("slow");
+			});
+
+			$("#slide-toggle").click(function(){
+				$(".slidetog").slideToggle("slow");
+			});
+
+			$("#fade-bttn").click(function(){
+				$(".fade-text").fadeIn("slow");
+			});
+
+			$("#fade-out-bttn").click(function(){
+				$(".fade-out-text").fadeOut("slow");
+			});
+
+			$("#add-class-btn").click(function(){
+				$(".add-class-here").addClass("selected");
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<h1>Click</h1>
+	<button id="click">Click Me!</button>
+
+	<h1>Hide</h1>
+	<p>I'm a paragraph!</p>
+	<button id="hide">Hide the pargraph above</button>
+
+	<h1>Show</h1>
+	<button id="show">Show the paragraph above hide after hiding it.</button>
+
+	<h1>Toggle</h1>
+	<button id="toggle">Toggle the Paragraphs below.</button>
+	<p class="toggled"> Paragraph to toggle</p>
+	<p class="toggled"> Paragraph to toggle</p>
+
+	<h1>SlideDown</h1>
+	<button id="slideDown">Slide the paragraph below</button>
+	<p class="slide">Paragraph to slide down</p>
+	<p class="slide">Paragraph to slide down</p>
+
+	<h1>SlideUp</h1>
+	<button id="slideUp">Slide the paragraph below up</button>
+	<p class="slideup">Paragraph to slide up</p>
+	<p class="slideup">Paragraph to slide up</p>
+
+	<h1>Slide Toggle</h1>
+	<button id="slide-toggle">SlideToggle below</button>
+	<p class="slidetog">Paragraph to slide toggle</p>
+	<p class="slidetog">Paragraph to slide toggle</p>
+
+	<h1>Fade In</h1>
+	<button id="fade-bttn">Fade In Button</button>
+	<p class="fade-text">Text to be faded in</p>
+	<p class="fade-text">Text to be faded in</p>
+
+	<h1 id="test">Fade Out</h1>
+	<button id="fade-out-bttn">Fade Out Button</button>
+	<p class="fade-out-text">Text to be faded out</p>
+	<p class="fade-out-text">Text to be faded out</p>
+
+	<h1>Add Class</h1>
+	<button id="add-class-btn">Add Class Button</button>
+	<p class="add-class-here">just some text</p>
+	<p class="add-class-here">just some text</p>
+
+</body>
+</html>

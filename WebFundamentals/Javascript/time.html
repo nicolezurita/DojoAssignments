@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time</title>
+
+	<script type="text/javascript">
+		var HOUR = 3;
+		var MINUTE = 45;
+		var PERIOD = "PM";
+		var JUSTAFTER = "just after";
+		var ALMOST = "almost";
+		var TIMEOFDAY = "";
+
+		if(MINUTE < 30 && PERIOD === "AM"){
+			TIMEOFDAY = "morning";
+			console.log("It's", JUSTAFTER, HOUR, "in the", TIMEOFDAY);
+		}
+
+		if(MINUTE > 30 && PERIOD === "AM"){
+			TIMEOFDAY = "morning";
+			console.log("It's", ALMOST, HOUR+1, "in the", TIMEOFDAY);
+		}
+
+		if(MINUTE < 30 && PERIOD === "PM"){
+			TIMEOFDAY = "evening";
+			console.log("It's", JUSTAFTER, HOUR, "in the", TIMEOFDAY);
+		}
+
+		if(MINUTE > 30 && PERIOD === "PM"){
+			TIMEOFDAY = "evening";
+			console.log("It's", ALMOST, HOUR+1, "in the", TIMEOFDAY);
+		}
+	</script>
+</head>
+<body></body>
+</html>

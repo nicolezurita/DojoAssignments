@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Numbers Only</title>
+	<script type="text/javascript">
+		function numbersOnly(arr)
+		{
+			var arrnew = []; //new array where num only will live
+			if(Array.isArray(arr))
+			{
+				for (var i = 0; i < arr.length; i++)  //for loop to go thru the array
+				{
+					if(typeof arr[i] === "number")  //check if its a num
+					{
+						arrnew.push(arr[i]);//if a number then push to new array
+					}
+				}
+			}	
+			console.log(arrnew);
+			return arrnew;
+		}
+
+		// numbersOnly(["hi",2,3]);
+	</script>
+</head>
+</html>

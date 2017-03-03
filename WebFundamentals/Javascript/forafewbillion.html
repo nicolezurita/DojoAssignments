@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>For a Few Billion</title>
+	<script type="text/javascript">
+		var penny = 1; // 1 cent
+		var penny_sum = 1;
+		var dollars = 0;
+		for(var day = 2; day <= 30; day++){
+			penny = penny * 2;
+			penny_sum += penny;
+		}
+
+		dollars = penny_sum / 100;
+		console.log("$",dollars);
+	</script>
+</head>
+</html>
