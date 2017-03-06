@@ -1,0 +1,15 @@
+#pokedex{
+	background-color: pink;
+    width: 500px;
+    height: 700px;
+    display: inline-block;
+    position: fixed;
+    border: 10px solid;
+    text-align: center;
+}
+
+#pokemon-side{
+	width: 900px;
+	display: inline-block;
+
+}
